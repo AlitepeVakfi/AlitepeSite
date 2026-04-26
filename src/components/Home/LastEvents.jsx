@@ -14,13 +14,11 @@ const LastEvents = () => {
       <div className="col-start gap-12">
         {/* Ali Tepe Anma Programı - Featured / Newest */}
         <div className="mx-auto xs:w-[90%] xls:w-[80%] w-full flex flex-col md:flex-row shadow-lg rounded-2xl overflow-hidden border border-slate-100">
-          <div className="w-full md:w-84 lg:w-96 bg-gradient-to-br from-emerald-800 to-teal-900 rounded-lg flex items-center justify-center p-8 min-h-[260px]">
-            <div className="text-center text-white">
-              <FaBookQuran className="text-5xl mx-auto mb-4 text-emerald-300" />
-              <p className="text-lg font-semibold text-emerald-100">Anma Programı</p>
-              <p className="text-sm text-emerald-200 mt-1">18 Nisan 2026</p>
-            </div>
-          </div>
+          <img
+            className="w-full md:w-84 lg:w-96 object-cover rounded-lg"
+            src="/events/ali_tepe_anma_kapak.jpg"
+            alt="Ali Tepe Vefat Yıl Dönümü Anma Programı"
+          />
           <div className="bg-white ps-6 md:ps-12 py-8 pe-6 flex-1 flex flex-col justify-center">
             <h6 className="text-2xl font-semibold mb-3 text-gradient-br from-foreground to-foreground/40">
               Ali Tepe Vefat Yıl Dönümü Anma Programı
